@@ -1,3 +1,29 @@
+
+foo = lambda x: pd.Series([i for i in reversed(x.split(','))])
+
+rev = df['City, State, Country'].apply(foo)
+
+
+states = list()
+
+for item in df['address']:
+    state = item.split()[-2]
+    states.append(state)
+
+df['state'] = states
+df = pd.DataFrame(df)
+df.sample()
+
+
+regex = r'(?P<City>[^,]+)\s*,\s*(?P<State>[^\s]+)\s+(?P<Zip>\S+)'
+df['address'].str.extract(regex)
+
+# regex = r'(?P<City>[^,]+)\s*,\s*(?P<State>[^\s]+)\s+(?P<Zip>\S+)'
+# df['Owner City State Zip'].str.extract(regex)
+
+
+
+
 import pandas as pd
 import numpy as np
 
