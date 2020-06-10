@@ -1,3 +1,5 @@
+GREAT for colors:  https://stackoverflow.com/questions/33287156/specify-color-of-each-point-in-scatter-plot-matplotlib
+
 
 foo = lambda x: pd.Series([i for i in reversed(x.split(','))])
 
