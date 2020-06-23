@@ -11,7 +11,7 @@ Yelp API restricts calls to 1000 items. Since Los Angeles County has roughly 30,
 Click on this <a href='https://sherirosalia.github.io/LA_Restaurants_Yelp_API/'><strong>link </strong></a>to view the interactive projection created in Plotly. Use tilt, rotate and zoom to control vews.
 
 ### Sister Project:
-Further analysis of this data in this repository <a href="https://www.dropbox.com/s/ro633mn139y1lfc/Screenshot%202020-06-22%2022.17.14.png?dl=0">"stars_of_LA"</a>
+Further analysis of this data in this repository <a href="https://github.com/sherirosalia/stars-of-LA">"stars_of_LA"</a>
 
 ### Frameworks
 Yelp API, Python, Pandas, Jupyter Notebook, Excel and Plotly. 
