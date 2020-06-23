@@ -30,9 +30,9 @@ You will need to have a Yelp api key, available from their developer program. Th
 ![](images/LA_rest_plot.png)
 
 ### Script
-![](images/script.png)
+![](images/data_pull.png)
 
 ### Data Pull
-![](images/data_pull.png)
+![](images/script.png)
 
 
